@@ -4,6 +4,16 @@ public class BookService {
     private int id;
     private String name;
 
+    private String loc;
+
+    public String getLoc() {
+        return loc;
+    }
+
+    public void setLoc(String loc) {
+        this.loc = loc;
+    }
+
     public int getId() {
         return id;
     }
